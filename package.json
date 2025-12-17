@@ -1,0 +1,55 @@
+{
+  "name": "@jk.mrx/gemini.js",
+  "version": "1.1.2",
+  "description": "JavaScript library for Google Gemini Web API with chat, file upload, image generation, and Gems support",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "node --test"
+  },
+  "keywords": [
+    "gemini",
+    "google",
+    "ai",
+    "api",
+    "chatbot",
+    "image-generation",
+    "google-gemini",
+    "scrape"
+  ],
+  "author": "jk.mrx",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "form-data": "^4.0.5",
+    "typescript": "^5.9.3"
+  },
+  "optionalDependencies": {
+    "https-proxy-agent": "^7.0.0"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0"
+  }
+}

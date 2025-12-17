@@ -1,0 +1,12 @@
+temp/
+test.js
+test.pdf
+sessions.json
+chat_session.json
+*.log
+.git
+.gitignore
+.replit
+replit.nix
+replit.md
+node_modules/
