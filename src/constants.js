@@ -31,6 +31,11 @@ export const HD = {
 
 export const Model = {
   DEFAULT: { name: 'unspecified', headers: {}, adv: false },
+  FLASH_3: {
+  name: 'gemini-3.0-flash',
+  headers: { 'x-goog-ext-525001261-jspb': '[1,null,null,null,"e6fa609c3fa255c0",null,null,0,[4],null,null,2]' },
+  adv: false
+  },
   PRO_3: {
     name: 'gemini-3.0-pro',
     headers: { 'x-goog-ext-525001261-jspb': '[1,null,null,null,"9d8ca3786ebdfbea",null,null,0,[4],null,null,2]' },
