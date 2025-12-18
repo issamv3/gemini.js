@@ -36,6 +36,7 @@ console.log(response.text);
 | Model | Description |
 |:------|:------------|
 | `Model.DEFAULT` | Default model |
+| `Model.FLASH_3` | Gemini 3 Flash |
 | `Model.PRO_3` | Gemini 3.0 Pro |
 | `Model.PRO_25` | Gemini 2.5 Pro |
 | `Model.FLASH_25` | Gemini 2.5 Flash |
